@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_menu_search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+
+    <!--        app:actionViewClass="android.widget.SearchView"-->
+    <item
+        android:id="@+id/item_menu_help"
+        android:icon="@drawable/ic_help"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_menu_notification"
+        android:icon="@drawable/ic_notifications"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_menu_user_avatar"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:title="Anhnd"
+        android:id="@+id/item_menu_username"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/item_menu_logout"
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="always">
+    </item>
+</menu>

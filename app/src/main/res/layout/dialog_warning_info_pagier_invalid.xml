@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_dialog_warning_info_papier_invalid"
+        android:padding="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/img_ic_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:src="@drawable/ic_error" />
+
+        <TextView
+            android:id="@+id/tv_title_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_toRightOf="@+id/img_ic_error"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/title_dialog_warning_info_pagier_invalid"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_dialog"
+            android:layout_alignLeft="@+id/tv_title_dialog"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:lineHeight="@dimen/_15sdp"
+            android:text="@string/content_dialog_warning_info_pagier_invalid"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8ssp" />
+
+        <com.example.pvcombank.view.CustomButton
+            android:id="@+id/btn_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_btn_agree"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/title_btn_agree"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_7sdp" />
+    </RelativeLayout>
+</LinearLayout>
+
+

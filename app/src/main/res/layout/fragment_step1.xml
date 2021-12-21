@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Step1Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/tv_title_frontside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/layout_frontSide"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/title_font_side"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_6ssp" />
+
+            <RelativeLayout
+                android:id="@+id/layout_frontSide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title_frontside"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/bg_layout_img_null"
+                android:paddingHorizontal="@dimen/_2sdp"
+                android:paddingVertical="@dimen/_2sdp">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/img_font_side"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+                <ImageView
+                    android:id="@+id/img_check_fontSide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/layout_tv_warning_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/background_layout_warning"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/warning_take_photo"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_5ssp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.example.pvcombank.view.CustomButton
+                android:id="@+id/btn_take_photo_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_frontSide"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_btn_start_take_photo"
+                android:drawableStart="@drawable/ic_camera"
+                android:text="@string/titel_btn_take_photo"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_take_photo"
+                android:textSize="@dimen/_5ssp" />
+
+            <TextView
+                android:id="@+id/tv_title_backside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_take_photo_1"
+                android:layout_alignStart="@id/layout_frontSide"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/title_back_side"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_6ssp" />
+
+            <RelativeLayout
+                android:id="@+id/layout_img_backside"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title_backside"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:background="@drawable/bg_layout_img_null"
+                android:paddingHorizontal="@dimen/_2sdp"
+                android:paddingVertical="@dimen/_2sdp">
+
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/img_back_side"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+                <ImageView
+                    android:id="@+id/img_check_backside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/layout_tv_warning_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/background_layout_warning"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_5sdp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/warning_take_photo"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_5ssp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.example.pvcombank.view.CustomButton
+                android:id="@+id/btn_take_photo_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_img_backside"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_btn_start_take_photo"
+                android:drawableStart="@drawable/ic_camera"
+                android:text="@string/titel_btn_take_photo"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_take_photo"
+                android:textSize="@dimen/_5ssp" />
+
+            <TextView
+                android:id="@+id/tv_text_header_step_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_take_photo_2"
+                android:layout_alignStart="@+id/layout_img_backside"
+                android:layout_alignEnd="@+id/layout_img_backside"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/tutorial"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_6ssp" />
+
+            <TextView
+                android:id="@+id/tv_tutorial_step_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_text_header_step_3"
+                android:layout_alignStart="@+id/tv_text_header_step_3"
+                android:layout_alignEnd="@+id/layout_img_backside"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/tutorial_1_step_1"
+                android:textSize="@dimen/_5ssp" />
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_tutorial_step_3"
+                android:layout_alignStart="@+id/tv_text_header_step_3"
+                android:layout_alignEnd="@+id/layout_img_backside"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/tutorial_2_step_1"
+                android:textSize="@dimen/_5ssp" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_3"
+                android:layout_alignStart="@+id/tv_text_header_step_3"
+                android:layout_alignEnd="@+id/layout_img_backside"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/tutorial_3_step_1"
+                android:textSize="@dimen/_5ssp" />
+
+            <com.example.pvcombank.view.CustomButton
+                android:id="@+id/btn_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_4"
+                android:layout_alignRight="@id/layout_img_backside"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_btn_continue"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/title_button_continue"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_5ssp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

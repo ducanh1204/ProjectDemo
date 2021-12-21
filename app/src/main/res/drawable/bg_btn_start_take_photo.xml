@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="2dp" />
+    <solid android:color="@color/white" />
+    <padding android:left="7dp" android:right="7dp"  />
+    <stroke
+        android:width="2dp"
+        android:color="@color/btn_take_photo"
+        android:dashWidth="10dp" />
+    <corners android:radius="2dp" />
+</shape>

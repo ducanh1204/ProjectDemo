@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PVCombank</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_layout_1_title">Xác thực</string>
+    <string name="title_item_menu">Logout</string>
+    <string name="step_1_title">Chụp giấy tờ tùy thân</string>
+    <string name="step_1_description">Kiểm tra thông tin giấy tờ tùy thân</string>
+    <string name="step_2_title">Chụp giấy tờ tùy thân</string>
+    <string name="step_2_description">Kiểm tra thông tin giấy tờ tùy thân</string>
+    <string name="step_3_title">Xác nhận thông tin</string>
+    <string name="step_3_description">Kiểm tra thông tin giấy tờ tùy thân</string>
+    <string name="title_button_continue">Tiếp tục</string>
+    <string name="copyright">Copyright ©2021 Sản phẩm thuộc bản quyền của PVcomBank</string>
+    <string name="tutorial">Hướng dẫn:</string>
+    <string name="tutorial_1_step_2">Hãy đưa CCCD chạm vào mặt sau của thiết bị</string>
+    <string name="tutorial_2_step_2">Đưa phần đầu thiết bị chạm và phần chính giữa thẻ CCCD</string>
+    <string name="tutorial_3_step_2">Giữ nguyên:</string>
+    <string name="tutorial_4_step_2">Giữ cho Thẻ CCCD và thiết bị cho tới khi màn hình thông báo đọc thông tin thành công.</string>
+    <string name="tutorial_tile_step_1">Đọc thông tin thẻ chip</string>
+    <string name="title_font_side">Mặt trước:</string>
+    <string name="title_back_side">Mặt sau:</string>
+    <string name="titel_btn_take_photo">Chụp lại</string>
+    <string name="warning_take_photo">Ảnh chụp bị mờ, bạn vui lòng chụp lại.</string>
+    <string name="toast_backpress">Press back again to exit</string>
+    <string name="tutorial_1_step_1">Ảnh Thẻ không bị bóng mờ</string>
+    <string name="tutorial_2_step_1">Ảnh Thẻ  không bị méo hình</string>
+    <string name="tutorial_3_step_1">Ảnh Thẻ không bị cắt góc</string>
+    <string name="title_dialog_warning_info_pagier_invalid">Thông tin giấy tờ không hợp lệ</string>
+    <string name="content_dialog_warning_info_pagier_invalid">Ảnh chụp Khách hàng chưa hợp lệ.\nQuý khách vui lòng thực hiện chụp lại.</string>
+    <string name="title_btn_agree">Đồng ý</string>
+    <string name="title_button_start_take_portraits">Bắt đầu chụp</string>
+    <string name="header_step_3">Chụp ảnh chân dung</string>
+    <string name="tutorial_step_3">Vui lòng thực hiện theo hướng dẫn</string>
+    <string name="tutorial_1_step_3">Giữ khuôn mặt trước camera và thực hiện</string>
+    <string name="tutorial_2_step_3">Giữ khuôn mặt trước camera và thực hiện</string>
+    <string name="note_step_3">Lưu ý:</string>
+    <string name="note_1_step_3">Kiểm tra các thông tin Quý khách chính xác</string>
+    <string name="note_2_step_3">Giữ khuôn mặt vào giữ hình camera để chụp.</string>
+    <string name="note_3_step_3">Không đội mũ trong quá trình chụp hình</string>
+    <string name="note_4_step_3">Các thông tin trên của Quý Khách sẽ được dùng để mở Tài khoản Thanh toán tại PVcomBank.</string>
+</resources>

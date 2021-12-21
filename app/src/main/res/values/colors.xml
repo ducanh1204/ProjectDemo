@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="status_bar">#F7F9FA</color>
+    <color name="icon_tab_layout_selected">#0772BA</color>
+    <color name="title_tab_layout_selected">#0772BA</color>
+    <color name="indicator_tab_layout_selected">#1890FF</color>
+    <color name="step_1_title">#0772BA</color>
+    <color name="progress_track">#0772bb</color>
+    <color name="progress_indicator">#ffde72</color>
+    <color name="background_layout_img_null">#F2EFE9</color>
+    <color name="background_layout_img_success">#B2DDFA</color>
+    <color name="background_layout_img_error">#ffd1d2</color>
+    <color name="background_layout_line_dashed_success">#0772bb</color>
+    <color name="background_layout_line_dashed_error">#ff4d4f</color>
+    <color name="ic_check">#0772bb</color>
+    <color name="ic_cancel">#e61c1c</color>
+    <color name="yellow">#FFC80B</color>
+    <color name="btn_take_photo">#0772BA</color>
+    <color name="btn_agree">#1890FF</color>
+    <color name="background_layout_warning">#5c5051</color>
+    <color name="ic_error">#1890ff</color>
+    <color name="custom_a_dot">#3640F5</color>
+    <color name="img_take_portraits">#0772BA</color>
+    <color name="background_transparent_layout_take_photo">#99000000</color>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragments.Tab1Fragment">
+
+    <LinearLayout
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_title_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/step_1_title"
+            android:textSize="@dimen/_7ssp" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_5ssp" />
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/linear_progress_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:indicatorColor="@color/progress_indicator"
+            app:trackColor="@color/progress_track" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/content_steps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header_layout" />
+
+</RelativeLayout>

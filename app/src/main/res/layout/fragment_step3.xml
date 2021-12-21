@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.Step3Fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/_40sdp"
+        android:paddingVertical="@dimen/_30sdp">
+
+        <TextView
+            android:id="@+id/tv_text_header_step_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/header_step_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tutorial_step_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_text_header_step_3"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/tutorial_step_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7ssp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layout_tv_tutorial_1_step_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tutorial_step_3"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@drawable/bg_custom_a_dot" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/tutorial_1_step_3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_7ssp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_tv_tutorial_2_step_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_tv_tutorial_1_step_3"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/_2sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@drawable/bg_custom_a_dot" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/tutorial_2_step_3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_7ssp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_tv_tutorial_2_step_3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:src="@drawable/img_tutorial_take_portraits" />
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/img_1"
+            android:layout_alignBottom="@+id/img_1"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/bg_img_ic_take_portraits"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/ic_camera_white" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_1">
+
+            <TextView
+                android:id="@+id/tv_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/note_step_3"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/line_text"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@color/black"
+                app:layout_constraintEnd_toEndOf="@id/tv_note"
+                app:layout_constraintStart_toStartOf="@id/tv_note"
+                app:layout_constraintTop_toBottomOf="@+id/tv_note" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tv_note_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_note"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/note_1_step_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/tv_note_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_note_1"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/note_2_step_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/tv_note_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_note_2"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/note_3_step_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp" />
+
+        <TextView
+            android:id="@+id/tv_note_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_note_3"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:lineHeight="@dimen/_10sdp"
+            android:text="@string/note_4_step_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_7sdp" />
+
+        <com.example.pvcombank.view.CustomButton
+            android:id="@+id/btn_start_take_portraits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_note_4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bg_btn_continue"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/title_button_start_take_portraits"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_5ssp" />
+
+    </RelativeLayout>
+
+</ScrollView>

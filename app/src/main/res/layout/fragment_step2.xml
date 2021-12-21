@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Step2Fragment">
+
+    <RelativeLayout
+        android:padding="@dimen/_5sdp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/layout_img_tutorial"
+            android:layout_alignEnd="@id/layout_img_tutorial"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/tutorial_tile_step_1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_6ssp" />
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:id="@+id/layout_img_tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title_step"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:background="@drawable/bg_layout_img_null"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:id="@+id/img_tutorial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_phone_and_card" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_alignEnd="@id/layout_img_tutorial"
+            android:layout_alignStart="@id/layout_img_tutorial"
+            android:id="@+id/tv_text_header_step_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_img_tutorial"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/tutorial"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_6ssp" />
+
+        <TextView
+            android:id="@+id/tv_tutorial_step_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_text_header_step_3"
+            android:layout_alignStart="@id/layout_img_tutorial"
+            android:layout_alignEnd="@id/layout_img_tutorial"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/tutorial_1_step_2"
+            android:textSize="@dimen/_5ssp" />
+
+        <TextView
+            android:layout_alignEnd="@id/layout_img_tutorial"
+            android:layout_alignStart="@id/layout_img_tutorial"
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tutorial_step_3"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/tutorial_2_step_2"
+            android:textSize="@dimen/_5ssp" />
+
+        <TextView
+            android:layout_alignEnd="@id/layout_img_tutorial"
+            android:layout_alignStart="@id/layout_img_tutorial"
+            android:id="@+id/tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_3"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/tutorial_3_step_2"
+            android:textSize="@dimen/_5ssp" />
+
+        <TextView
+            android:layout_alignEnd="@id/layout_img_tutorial"
+            android:layout_alignStart="@id/layout_img_tutorial"
+            android:id="@+id/tv_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_4"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/tutorial_4_step_2"
+            android:textSize="@dimen/_5ssp" />
+
+        <com.example.pvcombank.view.CustomButton
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_5"
+            android:layout_alignRight="@id/layout_img_tutorial"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/bg_btn_continue"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/title_button_continue"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_5ssp" />
+    </RelativeLayout>
+</ScrollView>
